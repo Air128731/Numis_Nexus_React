@@ -22,7 +22,7 @@ function Gallery () {
 
     return (
       <div className="App">
-        <div className='relative w-full h-full body'>          
+        <div className='relative w-full h-full body'>
           <div className='title fadeInRight'>
               <img src="https://www.lpc.com/wp-content/uploads/2018/05/header.jpg" style={{height: "130px", width:"100%"}}></img>
               <div className='py-5 text-3xl font-bold text-gray-700'>Your Tokens</div>
@@ -30,7 +30,7 @@ function Gallery () {
               {/* <div className='py-1 italic font-bold text-red-500 text-md'>Please note: Photos listed on our site may not be exact to your unit. Floor plans will be the same, however, each unit will have some cosmetic differences.</div> */}
           </div>
 
-          <div className='flex items-center justify-center mt-10'>
+          <div className='flex items-center justify-center mt-10 fadeInUp'>
             <div className='w-2/3'>
               <ItemView />
             </div>

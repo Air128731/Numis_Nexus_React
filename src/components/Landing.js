@@ -22,7 +22,7 @@ function Landing () {
             <Slideshow />
             <div className='absolute w-1/2 text-5xl text-white bg-black bg-opacity-50 fadeInLeft top-1/3 left-1/4 _sm:text-4xl _sm:w-full _sm:left-0 _sm:top-1/3'>
               <div className='font-bold'>Welcome To Numis Nexus</div><br></br>
-              <span className='text-3xl mt-7 _sm:text-xl'>Building the gap between Real World and Digital Collectibles  </span>
+              <span className='text-3xl mt-7 _sm:text-xl'>Bridging the gap between Real world and Digital collectibles!</span>
             </div>
           </div>
 

@@ -21,8 +21,7 @@ export default function Example() {
                 Nexus Alpha
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Nexus Alpha is the first true project of Numis Nexus.<br></br>
-                ...
+               This is the first project we will be working on. It will have a fully customizable SBT displaying your digital passport. We will help you to save and share your memories and travels throughout your life with your friends and loved ones in a digital setting! More to be announced about this project in the future!
               </p>
               <div className="flex items-center justify-center mt-10 gap-x-6 lg:justify-start">
                 <a

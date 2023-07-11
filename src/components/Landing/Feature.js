@@ -4,39 +4,39 @@ const features = [
   {
     name: 'Logistics and Transportation Companies',
     description:
-      'We are seeking to partner with major logistics and cargo transportation companies. ',
+      'At Numis Nexus we believe real world collectibles are one of the most underutilized assets digitally!',
     icon: CheckIcon,
   },
   {
     name: 'FinTech and Blockchain Companies',
     description:
-      'We are open to collaborations with other fintech and blockchain companies.',
+      'The love for currency, collection, art, and even bugs are passions that people have shared for centuries. ',
       icon: CheckIcon,
   },
   {
     name: 'IoT Device Manufacturers',
     description:
-      'As IoT devices play a critical role in our platform, we are interested in partnering with IoT device manufacturers. ',
+      'We want to bring the rare, not so rare, odd, and not so odd collectible items people love and covet to a digital medium. ',
       icon: CheckIcon,
   },
   {
     name: 'API Providers',
     description:
-      'We are continually looking to integrate with other APIs to enhance our platform\'s capabilities.',
+      'This helps to address the inequality prevalent in real world collecting by allowing it to be accessible for everyone, worldwide, and for fractions of the cost of what you would likely end up seeing these items for in a Real-life auction house.',
       icon: CheckIcon,
   },
   {
     name: 'Financial Institutions',
     description:
-      'By partnering with banks and other financial institutions, we can make the payment process even more seamless for our users. ',
+      'We look forward to fueling your burning passion for both real world and digital collecting!',
       icon: CheckIcon,
   },
-  {
-    name: 'Government and Regulatory Bodies',
-      description:
-      'We believe in working closely with government and regulatory bodies to ensure that our platform is fully compliant with all relevant laws and regulations. ',
-      icon: CheckIcon,
-  },
+  // {
+  //   name: 'Government and Regulatory Bodies',
+  //     description:
+  //     'We believe in working closely with government and regulatory bodies to ensure that our platform is fully compliant with all relevant laws and regulations. ',
+  //     icon: CheckIcon,
+  // },
 ]
 
 export default function Example() {
@@ -53,7 +53,7 @@ export default function Example() {
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
                       <feature.icon className="absolute w-5 h-5 text-indigo-600 left-1 top-1" aria-hidden="true" />
-                      {feature.name}
+                      {/* {feature.name} */}
                     </dt>{' '}
                     <dd className="inline">{feature.description}</dd>
                   </div>

@@ -6,11 +6,13 @@ export default function Example() {
         <div className="max-w-2xl mx-auto lg:max-w-4xl">
           <img className="h-12 mx-auto" src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg" alt="" />
           <figure className="mt-10">
-            <blockquote className="text-xl font-semibold leading-8 text-center text-gray-900 sm:text-2xl sm:leading-9">
+            <blockquote className="font-semibold leading-8 text-center text-gray-900 text-md sm:text-md sm:leading-9">
               <p>
-                At Numis Nexus, we believe real world collectibles are one of best assets digitally!
-                ...<br></br>
-                We look forward to fueling your burning passionate for both real world and digital collecting!
+                Francis, AKA Taris, fell in love with crypto and the world of Ethereum and digital assets around 2015.<br></br>
+                From there he was watched from the sidelines, trading and enjoying the collectibles and new use cases.<br></br>
+                Today, he is working with his team to develop and design a new collectible brand of his own.<br></br>
+                Numis Nexus isn’t just A collection, it’s a brand. It’s a journey through history one mint at a time.<br></br>
+                Today he is excited to present Nexus Genesis and have you embark upon the collectibles and Numismatic journey with him!
               </p>
             </blockquote>
             <figcaption className="mt-10">
@@ -20,11 +22,11 @@ export default function Example() {
                 alt=""
               />
               <div className="flex items-center justify-center mt-4 space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Taris</div>
+                <div className="font-semibold text-gray-900">Francis Crevatas</div>
                 <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
                   <circle cx={1} cy={1} r={1} />
                 </svg>
-                <div className="text-gray-600">Co-Founder & CEO</div>
+                <div className="text-gray-600">Owner & CEO</div>
               </div>
             </figcaption>
           </figure>

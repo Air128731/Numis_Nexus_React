@@ -3,19 +3,27 @@ import { UserCircleIcon, ChatBubbleOvalLeftIcon } from '@heroicons/react/24/outl
 const products = [
     {
       id: 1,
-      name: 'Francis Coevatus',
+      name: 'Francis Crevatas',
       href: '#',
-      imageSrc: 'img/henry_scott.jpg',
+      imageSrc: 'img/taris.png',
       imageAlt: "Front of men's Basic Tee in black.",
-      role: 'Co-Founder & CEO',
+      role: 'Owner and CEO',
     },
     {
       id: 2,
       name: 'Henry Scott',
       href: '#',
-      imageSrc: 'img/henry_scott.jpg',
+      imageSrc: 'img/taris.png',
       imageAlt: "Front of men's Basic Tee in black.",
       role: 'Lead Developer',
+    },   
+    {
+      id: 3,
+      name: 'Sa’ad',
+      href: '#',
+      imageSrc: 'img/taris.png',
+      imageAlt: "Front of men's Basic Tee in black.",
+      role: 'Lead Designer',
     },   
     // More products...
   ]
@@ -29,13 +37,13 @@ const products = [
           <div className="grid grid-cols-1 mt-6 gap-x-32 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
             {products.map((product) => (
               <div key={product.id} className="relative group">
-                {/* <div className="w-full overflow-hidden bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                <div className="w-full overflow-hidden bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none group-hover:opacity-75 lg:h-80">
                   <img
                     src={product.imageSrc}
                     alt={product.imageAlt}
                     className="object-cover object-center w-full h-full lg:h-full lg:w-full"
                   />
-                </div> */}
+                </div>
                 <div className="flex justify-between mt-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-700">
