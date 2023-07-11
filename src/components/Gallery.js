@@ -14,7 +14,7 @@ function Gallery () {
 
   useEffect(() => {
     const tmp = [];
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < data.length / 2; i++) {
       tmp.push(<NFTItem imageUrl={data[i].imageUrl} title={data[i].title} price={data[i].price} status={data[i].status}/>);
     }
     setListingContent(tmp);
@@ -36,7 +36,7 @@ function Gallery () {
             </div>
           </div>
             
-          <div className='grid grid-cols-5 gap-2 p-10 duration-300 ease-in-out transitioin-all listingContent _md:grid-cols-3 fadeInLeft'>
+          <div className='grid grid-cols-4 gap-10 p-10 duration-300 ease-in-out transitioin-all listingContent _md:grid-cols-3 fadeInLeft'>
             {listingContent}
           </div>
           <Footer />

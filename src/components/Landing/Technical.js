@@ -50,4 +50,3 @@ const features = [
       </div>
     )
   }
-  
