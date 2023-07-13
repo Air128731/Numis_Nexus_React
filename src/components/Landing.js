@@ -25,7 +25,7 @@ function Landing () {
             <div className='absolute w-1/2 text-white text-7xl fadeInLeft top-1/4 left-1/4 _sm:text-4xl _sm:w-full _sm:left-0 _sm:top-1/3'>
               <div className='font-bold'>Welcome To</div><br></br>
             </div>
-            <div className='absolute w-1/2 text-5xl text-yellow-300 fadeInRight top-2/3 left-1/4 _sm:text-4xl _sm:w-full _sm:left-0 _sm:top-1/3'>
+            <div className='absolute w-1/2 text-5xl text-yellow-300 fadeInRight top-2/3 left-1/4 _sm:text-4xl _sm:w-full _sm:left-0 _sm:top-2/3'>
               <div className='font-bold'>Bridging the gap between Real world and Digital collectibles!</div><br></br>
             </div>
           </div>
