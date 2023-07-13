@@ -29,7 +29,7 @@ export default function Example() {
             <dt className="text-sm font-medium leading-6 text-gray-900">Image</dt>
             <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                 <div className='flex justify-center'>
-                    <img src="/img/NFT2.jpg" className='h-40 rounded-md w-52'></img>
+                    <img src="/img/NFT3.png" className='h-40 rounded-md w-52'></img>
                 </div>
             </dd>
           </div>

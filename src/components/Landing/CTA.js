@@ -1,6 +1,6 @@
 export default function Example() {
     return (
-      <div className="bg-white">
+      <div className="bg-white fadeIn">
         <div className="py-24 mx-auto max-w-7xl sm:px-6 sm:py-32 lg:px-8">
           <div className="relative px-6 pt-16 overflow-hidden bg-gray-900 shadow-2xl isolate sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             <svg
@@ -37,7 +37,7 @@ export default function Example() {
             </div>
             <div className="relative mt-16 h-80 lg:mt-8">
               <img
-                className="opacity-60 absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+                className="opacity-80 absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
                 src="img/business_model.jpg"
                 alt="App screenshot"
                 width={1824}

@@ -5,9 +5,9 @@ import { useNavigate } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
-  { name: 'Contact with us', href: '#', current: false },
-  { name: 'Roadmap', href: '#', current: false },
-  { name: 'About Us', href: '#', current: false },
+  // { name: 'Contact with us', href: '#', current: false },
+  { name: 'Projects', href: '#', current: false },
+  // { name: 'About Us', href: '#', current: false },
   { name: 'Gallery', href: '#', current: false },
 ]
 
@@ -33,13 +33,13 @@ export default function Example() {
 
     if(index == 0)
       navigate('/', { replace: true });
+    // else if(index == 1)
+    //   navigate('/logistics', { replace: true });
     else if(index == 1)
-      navigate('/logistics', { replace: true });
-    else if(index == 2)
       navigate('/blog', { replace: true });
-    else if(index == 3)
-      navigate('/aboutus', { replace: true });
-    else if(index == 4)
+    // else if(index == 3)
+    //   navigate('/aboutus', { replace: true });
+    else if(index == 2)
       navigate('/gallery', { replace: true });
   }
   

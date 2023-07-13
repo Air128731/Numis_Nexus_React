@@ -8,25 +8,24 @@ export default function Example() {
           <figure className="mt-10">
             <blockquote className="font-semibold leading-8 text-center text-gray-900 text-md sm:text-md sm:leading-9">
               <p>
-                Francis, AKA Taris, fell in love with crypto and the world of Ethereum and digital assets around 2015.<br></br>
-                From there he was watched from the sidelines, trading and enjoying the collectibles and new use cases.<br></br>
-                Today, he is working with his team to develop and design a new collectible brand of his own.<br></br>
-                Numis Nexus isn’t just A collection, it’s a brand. It’s a journey through history one mint at a time.<br></br>
-                Today he is excited to present Nexus Genesis and have you embark upon the collectibles and Numismatic journey with him!
+              The Second collection of Numis Nexus NFTs and the first collection truly based on the Numis in Numis Nexus.
+              Cuprum comes from the old Latin word for copper and fits our first collection based on US currency, the penny.
+              We plan to release these with a quality at or above our release for Nexus Genesis and hope you share our joy in exploring the history of the penny with us!
+              This will be the first in a line of 5 collections based on US coin mints from initial mint to current day.
               </p>
             </blockquote>
             <figcaption className="mt-10">
-              <img
+              {/* <img
                 className="w-10 h-10 mx-auto rounded-full"
                 src="img/taris.png"
                 alt=""
-              />
+              /> */}
               <div className="flex items-center justify-center mt-4 space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Francis Crevatas</div>
-                <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
+                <div className="text-xl font-semibold text-gray- ">Nexus Cuprum</div>
+                {/* <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
                   <circle cx={1} cy={1} r={1} />
-                </svg>
-                <div className="text-gray-600">Owner & CEO</div>
+                </svg> */}
+                {/* <div className="text-gray-600">Owner & CEO</div> */}
               </div>
             </figcaption>
           </figure>
