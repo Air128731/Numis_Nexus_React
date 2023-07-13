@@ -12,7 +12,8 @@
   }
   ```
 */
-import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
+import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline';
+import { FaDiscord, FaTelegramPlane, FaMailBulk } from "react-icons/fa";
 
 export default function Example() {
   return (
@@ -23,8 +24,6 @@ export default function Example() {
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Subscribe to our newsletter.</h2>
             <div className="flex flex-col mt-4 text-lg leading-8 text-gray-300">
               <p>For further information, please reach out to us:</p>
-              <p>Email: taris@numis_nexus.org</p>
-              <p>Discord & Telegram: @taris</p>
             </div>
             <div className="flex max-w-md mt-6 gap-x-4">
               <label htmlFor="email-address" className="sr-only">
@@ -47,17 +46,21 @@ export default function Example() {
               </button>
             </div>
           </div>
-          <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
-            <div className="flex flex-col items-start">
+          <dl className="flex justify-center gap-x-8 gap-y-10 lg:pt-2">
+            <div className="flex flex-col items-center">
               <div className="p-2 rounded-md bg-white/5 ring-1 ring-white/10">
                 <CalendarDaysIcon className="w-6 h-6 text-white" aria-hidden="true" />
               </div>
-              <dt className="mt-4 font-semibold text-white">Working Time</dt>
-              <dd className="mt-2 leading-7 text-gray-400">
-                Monday ~ Saturday, 9AM - 5PM ET
+              <dt className="my-4 font-semibold text-white">Join Us</dt>
+              <dd className="leading-7 text-gray-400">
+                <div className='flex flex-row'>
+                  <FaDiscord className='w-10 h-10'/>
+                  <FaTelegramPlane className='w-10 h-10 mx-10'/>
+                  <FaMailBulk className='w-10 h-10'/>
+                </div>
               </dd>
             </div>
-            <div className="flex flex-col items-start">
+            {/* <div className="flex flex-col items-start">
               <div className="p-2 rounded-md bg-white/5 ring-1 ring-white/10">
                 <HandRaisedIcon className="w-6 h-6 text-white" aria-hidden="true" />
               </div>
@@ -65,7 +68,7 @@ export default function Example() {
               <dd className="mt-2 leading-7 text-gray-400">
                 Don't subscribe any unnecessary questions
               </dd>
-            </div>
+            </div> */}
           </dl>
         </div>
       </div>
