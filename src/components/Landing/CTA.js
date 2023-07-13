@@ -37,7 +37,7 @@ export default function Example() {
                 </a>
               </div>
             </div>
-            <div className="relative mt-16 h-80">
+            <div className="relative mt-16 _sm:mt-8 h-80 _sm:h-64">
               <img
                 className="CTAimg opacity-80 absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
                 src="img/business_model.jpg"
