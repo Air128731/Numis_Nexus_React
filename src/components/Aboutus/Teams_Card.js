@@ -3,9 +3,9 @@ import { UserCircleIcon } from '@heroicons/react/24/outline'
 
 export default function Example() {
     return (
-        <div className="container mt-10 mb-40">
+        <div className="mt-10 mb-40 container_teams">
             <div className="card">
-            <div className='title'>
+            <div className='title_teams'>
                 <div className='text-lg font-bold text-gray-800'>Francis Crevatas</div>
                 <div className='flex flex-row items-center mt-2 text-sm italic text-gray-900'>Owner and CEO<UserCircleIcon className='w-8 h-8 text-white'/></div>             
             </div>
@@ -21,7 +21,7 @@ export default function Example() {
             </div> 
             </div>
             <div className="card">
-            <div className='text-gray-900 title'>
+            <div className='text-gray-900 title_teams'>
                 <div className='text-lg font-bold text-gray-800'>Henry Scott</div>
                 <div className='flex flex-row items-center mt-2 text-sm italic text-gray-900'>Lead Developer<UserCircleIcon className='w-8 h-8 text-white'/></div> 
             </div>
@@ -37,7 +37,7 @@ export default function Example() {
             </div>
             </div>
             <div className="card">
-            <div className='text-gray-900 title'>
+            <div className='text-gray-900 title_teams'>
                 <div className='text-lg font-bold text-gray-800'>Saadullah Ghori</div>
                 <div className='flex flex-row items-center mt-2 text-sm italic text-gray-900'>Lead Designer<UserCircleIcon className='w-8 h-8 text-white'/></div> 
             </div>
@@ -53,7 +53,7 @@ export default function Example() {
             </div>
             </div>
             <div className="card">
-            <div className='text-gray-900 title'>
+            <div className='text-gray-900 title_teams'>
                 <div className='text-lg font-bold text-gray-800'>Marketing Expert</div>
                 <div className='flex flex-row items-center mt-2 text-sm italic text-gray-900'>Owner and CMO<UserCircleIcon className='w-8 h-8 text-white'/></div> 
             </div>  
