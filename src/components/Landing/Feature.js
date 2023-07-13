@@ -62,7 +62,7 @@ export default function Example() {
               </dl>
             </div>
           </div>
-          <div className='flex items-center justify-right'>
+          <div className='flex sm:items-center sm:justify-right'>
             <img
               src="img/collaboration.jpg"
               alt="Product screenshot"
