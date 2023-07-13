@@ -1,3 +1,5 @@
+import '../../css/project-base.css';
+
 export default function Example() {
     return (
       <div className="bg-white fadeIn">
@@ -35,11 +37,12 @@ export default function Example() {
                 </a>
               </div>
             </div>
-            <div className="relative mt-16 h-80 lg:mt-8">
+            <div className="relative mt-16 h-80">
               <img
-                className="opacity-80 absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+                className="CTAimg opacity-80 absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
                 src="img/business_model.jpg"
                 alt="App screenshot"
+                // style={{maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto"}}
                 width={1824}
                 height={1080}
               />

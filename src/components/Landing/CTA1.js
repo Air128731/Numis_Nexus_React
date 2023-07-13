@@ -37,7 +37,7 @@ export default function Example() {
             </div>
             <div className="relative mt-16 h-80 lg:mt-8">
               <img
-                className="opacity-80 absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+                className="CTAimg pacity-80 absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
                 src="img/business_model1.jpg"
                 alt="App screenshot"
                 width={1824}
