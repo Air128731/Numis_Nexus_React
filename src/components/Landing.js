@@ -39,9 +39,6 @@ function Landing () {
           {/* CTA */}
           <CTA />
 
-          {/* CTA */}
-          <CTA1 />
-
            {/* Team */}
            <Team />
 

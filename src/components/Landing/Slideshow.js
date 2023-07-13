@@ -58,7 +58,7 @@ function ImageSlider() {
         <div className="slideshow-container">
             {/* <div className="mySlides fade" style={{backgroundImage: "url('img/1.jpg')"}}></div>
             <div className="mySlides fade" style={{backgroundImage: "url('https://www.lpc.com/wp-content/uploads/2018/04/Exterior2.jpeg')"}}></div> */}
-            <div className="mySlides" style={{backgroundImage: "url('img/1.jpg')"}}></div>
+            <div className="mySlides" style={{display: "block", backgroundImage: "url('img/1.jpg')"}}></div>
 
             {/* <a className="prev" onClick={() => plusSlides(-1)}>❮</a>
             <a className="next" onClick={() => plusSlides(1)}>❯</a> */}
