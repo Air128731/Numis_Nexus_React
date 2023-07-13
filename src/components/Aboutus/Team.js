@@ -19,7 +19,7 @@ const products = [
     },   
     {
       id: 3,
-      name: 'Sa’ad',
+      name: 'Saadullah Ghori',
       href: '#',
       imageSrc: 'img/taris.png',
       imageAlt: "Front of men's Basic Tee in black.",

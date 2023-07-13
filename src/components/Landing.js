@@ -11,6 +11,7 @@ import Technical from './Landing/Technical';
 import Testinomial from './Landing/Testinomial';
 import Footer from './Footer';
 import Team from './Aboutus/Team';
+import TeamsCard from './Aboutus/Teams_Card';
 
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -39,8 +40,9 @@ function Landing () {
           {/* CTA */}
           <CTA />
 
-           {/* Team */}
-           <Team />
+          {/* TeamCard */}
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900">Our Teams</h2>
+          <TeamsCard />
 
           {/* Testinomail */}
           <Testinomial />         
