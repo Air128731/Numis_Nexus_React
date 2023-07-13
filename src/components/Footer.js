@@ -54,9 +54,9 @@ export default function Example() {
               <dt className="my-4 font-semibold text-white">Join Us</dt>
               <dd className="leading-7 text-gray-400">
                 <div className='flex flex-row'>
-                  <FaDiscord className='w-10 h-10'/>
-                  <FaTelegramPlane className='w-10 h-10 mx-10'/>
-                  <FaMailBulk className='w-10 h-10'/>
+                  <FaDiscord className='w-8 h-8 hover:cursor-pointer'/>
+                  <FaTelegramPlane className='w-8 h-8 mx-10 hover:cursor-pointer'/>
+                  <FaMailBulk className='w-8 h-8 hover:cursor-pointer'/>
                 </div>
               </dd>
             </div>

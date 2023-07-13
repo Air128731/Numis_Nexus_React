@@ -29,7 +29,7 @@ function Landing () {
               <div className='font-bold'>Bridging the gap between Real world and Digital collectibles!</div><br></br>
             </div>
           </div>
-
+          
           {/* Feature */}
           <Feature />
 
