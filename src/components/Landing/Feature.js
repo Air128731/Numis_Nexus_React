@@ -45,19 +45,23 @@ export default function Example() {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.addEventListener('ended', () => {
-        // Restart the video when it ends
-        videoRef.current.play();
-      });
-    }
+    videoRef.current.playbackRate = 0.5;
 
-    return () => {
-      // Clean up the event listener when the component unmounts
-      if (videoRef.current) {
-        videoRef.current.removeEventListener('ended', () => {});
-      }
-    };
+    // videoRef.current.play();
+    
+    // if (videoRef.current) {
+    //   videoRef.current.addEventListener('ended', () => {
+    //     // Restart the video when it ends
+    //     videoRef.current.play();
+    //   });
+    // }
+
+    // return () => {
+    //   // Clean up the event listener when the component unmounts
+    //   if (videoRef.current) {
+    //     videoRef.current.removeEventListener('ended', () => {});
+    //   }
+    // };
   }, []);
 
   return (
@@ -89,7 +93,7 @@ export default function Example() {
               width={2432}
               height={1442}
             /> */}
-            <video ref={videoRef} autoPlay className='rounded-3xl'>
+            <video ref={videoRef} autoPlay loop className='rounded-3xl'>
               <source src="img/goals.mp4" type="video/mp4" />
             </video>
           </div>
