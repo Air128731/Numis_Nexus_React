@@ -93,7 +93,7 @@ export default function Example() {
               width={2432}
               height={1442}
             /> */}
-            <video ref={videoRef} autoPlay loop className='rounded-3xl'>
+            <video ref={videoRef} autoPlay loop muted className='rounded-3xl'>
               <source src="img/goals.mp4" type="video/mp4" />
             </video>
           </div>
