@@ -1,5 +1,6 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 import '../../css/project-base.css';
+import React, { useEffect, useRef } from 'react';
 
 const features = [
   {
@@ -41,6 +42,24 @@ const features = [
 ]
 
 export default function Example() {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.addEventListener('ended', () => {
+        // Restart the video when it ends
+        videoRef.current.play();
+      });
+    }
+
+    return () => {
+      // Clean up the event listener when the component unmounts
+      if (videoRef.current) {
+        videoRef.current.removeEventListener('ended', () => {});
+      }
+    };
+  }, []);
+
   return (
     <div className="py-24 overflow-hidden bg-white sm:py-32 fadeInRight">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
@@ -63,13 +82,16 @@ export default function Example() {
             </div>
           </div>
           <div className='flex sm:items-center sm:justify-right'>
-            <img
+            {/* <img
               src="img/collaboration.jpg"
               alt="Product screenshot"
               className="CTAimg w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={2432}
               height={1442}
-            />
+            /> */}
+            <video ref={videoRef} autoPlay className='rounded-3xl'>
+              <source src="img/goals.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>
