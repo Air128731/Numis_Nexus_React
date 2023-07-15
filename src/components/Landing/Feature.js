@@ -33,12 +33,6 @@ const features = [
       'We look forward to fueling your burning passion for both real world and digital collecting!',
       icon: CheckIcon,
   },
-  // {
-  //   name: 'Government and Regulatory Bodies',
-  //     description:
-  //     'We believe in working closely with government and regulatory bodies to ensure that our platform is fully compliant with all relevant laws and regulations. ',
-  //     icon: CheckIcon,
-  // },
 ]
 
 export default function Example() {

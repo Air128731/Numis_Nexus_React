@@ -12,14 +12,14 @@ import FeatureSelect from './Gallery/FeatureSelect';
 import { useState, useEffect } from 'react';
 import NFTItem from './NFTItem/NFTItem';
 import { Select } from '@mui/material';
-const data = require('../data/data.json');
+// const data = require('../data/data.json');
 
 function Gallery () {
   const [listingContent, setListingContent] = useState([]);
 
   useEffect(() => {
     const tmp = [];
-    for (let i = 0; i < data.length / 4; i++) {
+    for (let i = 0; i < 8; i++) {
       tmp.push(<NFTItem imageUrl={data[i].imageUrl} title={data[i].title} price={data[i].price} status={data[i].status}/>);
     }
     setListingContent(tmp);
